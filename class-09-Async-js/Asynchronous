@@ -1,0 +1,145 @@
+Asynchronous Javascript:
+
+Web Api's
+Async/ Await
+Callbacks
+Microtask Queue (Job Queue)
+Task Queue (Callback Queue)
+Promises
+Event loop
+
+Asynchronous:
+
+
+How JS actually work?
+JS Single Threaded and non-blocking?
+
+V8 engine reads the Javascript read/write and changes machine
+executable instruction for the browser.
+Engine Consist of two parts.
+
+1. Memory Heap:  Memory Allocation part.
+2. Call Stack:. Code read and execute.
+
+JS is a single threaded and non blocking.
+One statement executed at a time.
+
+
+One Call Stack (FILO).
+Why JS Design Single Threaded.
+Event Loop: Callback Queues
+
+Issues of multi-threaded?
+Deadlocks.
+
+StackOverflow:
+Over-flowing memory.
+
+
+Promises:
+Promises is a new feature in js ES6. Promise are everywhere.
+A Promise is an object that may produce a single value some time in the future. Either resolve and rejected.
+
+Three possible states
+1. Fulfilled.
+2. Rejected.
+3. Pending.
+
+JS Structure Runtime
+CallStack Memory Heap    Web Api
+                         Event loop
+                         Callback Queue
+                         Job Queue (Micro Task Queue) ES6
+
+
+
+Threads , Concurrency and parallelism
+
+
+ Async ability process in the background
+ Browser create on thread
+ JS program running
+ 
+ Web Worker(new js )
+Communicate different messages
+e.g fetch()
+
+Concurrency         Cocurreny + Parallelism
+One thread at a time                (Multi-core CPU)
+
+Concurrency: 
+Something achieve
+e.g one mouth one hand
+
+Parallelism:
+Multiple Mouth and multiple people
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

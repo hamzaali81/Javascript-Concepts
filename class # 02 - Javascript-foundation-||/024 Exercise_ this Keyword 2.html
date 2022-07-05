@@ -1,0 +1,10 @@
+<p>Run this code, and you will see there is an issue. How would you fix it?<br><br> </p><pre class="prettyprint linenums">const character = {
+  name: 'Simon',
+  getCharacter() {
+    return this.name;
+  }
+};
+const giveMeTheCharacterNOW = character.getCharacter;
+
+//How Would you fix this?
+console.log('?', giveMeTheCharacterNOW()); //this should return 'Simon' bud doesn't</pre><p><br>When you are done check the attached solution!</p>

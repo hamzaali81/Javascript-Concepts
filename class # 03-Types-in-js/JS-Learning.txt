@@ -1,0 +1,71 @@
+Class: 03 
+Topics
+1. Static vs Dynamic Typed
+2. Primitive Types
+3. Pass By Refrenece
+4. Type Coercion
+5. Arrays, Functions, Objects
+
+Static vs Dynamic.
+
+Types:
+Number
+Boolean
+String
+undefined
+null
+Symbol('just me)
+{}
+
+Javascript:
+Everything is an object in js.
+
+Sees!
+Standard build-in objects.
+JS comparison table.
+Equality comparison and same
+
+Arrays:
+Arrays are object in js.
+
+Primitive Types: Are immutable they cannot change them they are completely removed.
+Non-Primitive Types:
+
+By Refrenece vs By Value.
+Object: Refrenec. Point same value. 
+Primitive: Remove value. 
+
+Type Coercion:
+The Operands that is the things to the left 
+and to the right of the Operator are different types.
+Language convert certain type to another type.
+
+Do all languages are type coercion?
+Yes, In memory different types.
+e.g Personal computer memory.
+
+
++0, -0
+
+Dynamic vs Static type:
+Type: 
+Typescript (Superset of JS)
+Less time debugging.
+
+Weakly and strogly typed:  
+JS, weakly typed Language.
+Typescript: strongly typed language.
+
+http://blog.digitaljob.org/
+
+JTS_Static_Typing in JS.
+1. Typescript (Microsoft)
+2. flow (facebook)
+3. RE (programming language Ocamel) by facebook.
+4. ELM
+
+
+flow --> (compiler (babel)) --> JS
+Typescript --> (Typescript Compiler) --> JS 
+ELM --> (ELM Compiler) --> JS 
+RE --> (RE Compiler) --> JS 

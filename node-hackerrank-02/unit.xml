@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0920" tests="7" failures="7">
+  <testsuite name="Root Suite" timestamp="2022-03-20T19:09:47" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_pagination_middleware" timestamp="2022-03-20T19:09:47" tests="7" file="/home/hamzaali/node-hackerrank-02/test/index.spec.js" time="0.0920" failures="7">
+    <testcase name="express_pagination_middleware Should have the context object in the request" time="0.0090" classname="Should have the context object in the request">
+      <failure message="expected { Object (url, query) } to have property &apos;context&apos;" type="AssertionError"><![CDATA[AssertionError: expected { Object (url, query) } to have property 'context'
+    at Context.<anonymous> (test/index.spec.js:24:25)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should have property id, timestamp, path in trace object" time="0.0010" classname="Should have property id, timestamp, path in trace object">
+      <failure message="Cannot read properties of undefined (reading &apos;should&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'should')
+    at Context.<anonymous> (test/index.spec.js:29:21)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should have the default page, limit and skip property values" time="0.0010" classname="Should have the default page, limit and skip property values">
+      <failure message="Cannot read properties of undefined (reading &apos;page&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'page')
+    at Context.<anonymous> (test/index.spec.js:38:21)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should set the correct skip value based on page and limit" time="0.0000" classname="Should set the correct skip value based on page and limit">
+      <failure message="Cannot read properties of undefined (reading &apos;page&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'page')
+    at Context.<anonymous> (test/index.spec.js:47:21)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should have a valid search property in context object" time="0.0010" classname="Should have a valid search property in context object">
+      <failure message="Cannot read properties of undefined (reading &apos;searchTerm&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'searchTerm')
+    at Context.<anonymous> (test/index.spec.js:57:21)
+    at processImmediate (node:internal/timers:466:21)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 1 " time="0.0680" classname="Should respond with the correct data - 1 ">
+      <failure message="Cannot read properties of undefined (reading &apos;should&apos;)" type="TypeError"><![CDATA[TypeError: Cannot read properties of undefined (reading 'should')
+    at /home/hamzaali/node-hackerrank-02/test/index.spec.js:64:27
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+    <testcase name="express_pagination_middleware Should respond with the correct data - 2" time="0.0120" classname="Should respond with the correct data - 2">
+      <failure message="expected 0 to equal 1" type="AssertionError"><![CDATA[AssertionError: expected 0 to equal 1
+    at /home/hamzaali/node-hackerrank-02/test/index.spec.js:96:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

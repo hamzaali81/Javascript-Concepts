@@ -1,0 +1,210 @@
+Class 01: 
+overview:
+Javascript Engine
+Javascript Runtime
+Interpreter/ Compiler / JIT Compiler
+Writting Optimized Code
+Call Stack + Memory Heap
+Stack Overflow + Memory Leaks
+Garbage Collection
+Node.JS
+Single Threaded
+
+JS Foundation
+
+Javascript Engine:
+const isHappy = true;
+Translates JS into machine.
+
+ECMAScript engine
+v8 engine runs js.
+Created First JS engine, Spider Monkey, Firefox: Brendan Eich 
+
+Inside the engine:
+JS engine written in C++ low level programming language.
+ Parser-> AST(Abstarct syntax tree)-> Interpreter-> Profile-> Compiler -> Byte code -> Optimized code.
+Seacrh: AST explorer.
+Interpreter: Gives instruction
+
+e.g
+function jsengine(code){
+    return code.split(/\s+/)
+}
+
+jsengine('var a = 5');
+
+what problem everything just create a js engine?
+Language standardrize.
+
+Interpreter vs Compiler:
+In programming two ways of translating machine language.
+Interpreter: Translates and reads the file line by line.
+Compiler: Translation of code what just he written. Language can be understood by our machines. Split out another language.
+
+Both are use in programming
+High level --> Byte Code --> Machine Code.
+e.g x86 Interpreted
+e.g pros and cons
+
+Inside the v8 engine.
+Compiler + Interpreter = JIT Compiler.
+
+JIT (Just In time Compilation): 
+
+Interpreter and V8 engine is called ignition.
+V8 engine: Two jit Compilers.
+
+Comparing Other Languages:
+
+Is Javascript Interpreted language:
+Yes. But actually depend implementation.
+
+Python: Interpreter and Compiler. 
+
+Writting Optimizing code:
+
+eval()         Hidden classes
+arguments      Inline caching
+for in
+with
+delete
+
+Task 01: 
+Hidden classes
+
+Web Assembly:
+Game Changer in future
+Standard Binary Executable Fromat..
+Compiler Code All the way down web Assembly.
+
+Call Stack and Memory Heap.
+
+Call Stack: Call line by Line.
+Memory Heap: Store Right Information. Allocate and release Memory.
+
+Stack overflow or Recursion:
+Alot of function inside the scope.
+
+Garbage Collection:
+JS is garbage collected memory.
+All memory is available but memory limited and memory leaks.
+JS developers not care about memory.
+Use: Mark and sweap algorithm
+
+Memory Leaks:
+ let array = [];
+ for (let i = 5; i > 1; i++) {
+     array.push(i-1);    
+ }
+
+ 1. Globak Variables
+ var a = 1;
+ var a = 2;
+ var a = 3;
+ var a = 4;
+
+ 2. Event Listeners:
+ var ele = document.getElementById('button');
+ ele.addEventListener('click', onClick);
+
+ Event Listeners never be delete;
+
+ 3. SetInterval
+
+ SetInterval(()=> {
+     // refrencing objects
+ });
+
+Sound cloud: website
+
+Single Threaded:
+One set of instruction execute at a time.
+Has only one call stack. Function not run in parallel.
+Starting: JS only interaction.
+
+What problms to see Synchronous code or single Threaded.
+Difficulties long runing tasks.
+e.g Twitter functionalities
+e.g alert function
+
+Javascript Runtime:
+Call Stack
+Memory Heap
+Web Api: Communicate browser web api and the js engine known data in background.
+Event Loop (Callback Queue): All web api's store event loop.
+
+Web Api (Api's provide by browser):
+window 
+this
+
+Event Loop:
+Web Api (done work) --> Callback Queue --> CallStack.
+
+Event loop:  latentfip.com
+
+JS Engine vs Runtime:
+
+Node JS:
+JS run outside the browser.
+Runtime.
+C++ program
+
+Node JS System:
+Application
+V8 (Javascript Engine)
+Server side pateform
+NodeJS Bindings (Node Api).
+Libuv (Asynchronous I/O) (Event Queue, Event Loop, Blocking Operation, Executable Callback, Working Threads)
+Non-blocking I/O.
+
+php vs node js
+
+cmd
+
+node
+global 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

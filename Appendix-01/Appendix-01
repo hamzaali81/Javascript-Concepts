@@ -1,0 +1,42 @@
+Javascript Types:
+-------------------------------
+1. Number
+2. String
+3. Boolean
+4. Undefined
+5. Null
+6. Symbol (new ES6)
+7. Object
+
+Javascript Comparisons:
+--------------------------------
+!==
+===
+>=
+<=
+>
+<
+
+Javascript Logical Operators
+-------------------------------
+&&
+||
+!
+
+Javascript Functions
+------------------------------
+var a = function name() {}
+function name() {}
+return
+
+Javascript Data Structure
+-----------------------------
+Array
+Object
+
+Javascript Looping
+-----------------------------
+for
+while
+do while
+forEach

@@ -1,0 +1,12 @@
+<p>There is a new method added to promises in 2021!&nbsp;Unfortunately it isn't a very useful one, but I added here for you as an example that you can play around with using our previous example:</p><p><code>Promise.any()</code> resolves if any of the supplied promises is resolved. Below we have 3 promises, which resolves at random times.</p><pre class="prettyprint linenums">const p1 = new Promise((resolve, reject) =&gt; {
+  setTimeout(() =&gt; resolve("A"), Math.floor(Math.random() * 1000));
+});
+const p2 = new Promise((resolve, reject) =&gt; {
+  setTimeout(() =&gt; resolve("B"), Math.floor(Math.random() * 1000));
+});
+const p3 = new Promise((resolve, reject) =&gt; {
+  setTimeout(() =&gt; resolve("C"), Math.floor(Math.random() * 1000));
+});</pre><p>Out of <code>p1</code>, <code>p2</code> and <code>p3</code>, whichever resolves first is taken by <code>Promise.any()</code>.</p><pre class="prettyprint linenums">(async function () {
+  const result = await Promise.any([p1, p2, p3]);
+  console.log(result); // Prints "A", "B" or "C"
+})();</pre><p>What if none of the promises resolve? In that case <code>Promise.any()</code> throws an error!</p>

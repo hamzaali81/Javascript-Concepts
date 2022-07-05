@@ -1,0 +1,15 @@
+
+Joke-Teller-Live-Demo
+https://jacintodesign.github.io/joke-teller/
+
+Text-to-Speech-API-VoiceRSS-
+http://www.voicerss.org/api/
+
+JokeAPI
+https://sv443.net/jokeapi/v2/
+
+W3Schools-Audio-DOM-Reference
+https://www.w3schools.com/tags/ref_av_dom.asp
+
+Hiding-API-Keys-On-Server
+https://stackoverflow.com/questions/47822525/where-to-hide-an-api-key

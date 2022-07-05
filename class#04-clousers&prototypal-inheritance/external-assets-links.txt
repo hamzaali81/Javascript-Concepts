@@ -1,0 +1,12 @@
+
+Course-Map
+https://coggle.it/diagram/XE3ZoVj-rtA5hcxj/t/advanced-javascript
+
+Exercise-Repl
+https://repl.it/@aneagoie/HOF
+
+Solution-Code
+https://repl.it/@aneagoie/HOF-solution
+
+Closures-Repl
+https://repl.it/@aneagoie/closures

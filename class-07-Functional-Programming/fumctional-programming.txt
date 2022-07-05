@@ -1,0 +1,122 @@
+Topics:
+Composition vs Inheritance.
+1.Curry
+2.Partial Application.
+3.Pure Function
+4.Refrencial Transparency.
+5.Compose
+6.Pipe.
+
+Intro Functional Programming:
+Lisp is very popular functional programming develped 1958.
+1. Distributed computing multiple data interacting.
+2. Same Data at same time (e.g Redux)
+
+functional programming is all about separation of concerns, which oop does as well.
+Its all about packaging our code into separate chunks so that everything's well organized.
+And each part of our code concerns itself with the one thing it's good at.
+
+In oop programming divides property and methods
+functional programming has this idea as well of separating
+concerns, but they also separate data and functions.
+But not going to combine both data and functions as one piece or one object.
+Function languages concern data and functions are concerned.
+
+We separate them up and most functional programming languages 
+dont have these concepts of classes and methods that belong to object.
+Instead, function operate on well defined data and structures like arrays and objects rather than actually.
+
+All objects created in functional programming are immutable.
+We avoid things like shared state and we adhere to this Principle
+of pure functions.
+
+Pure Function:
+Functions always return same input and same output and function cannot 
+modify anything no-effect in 
+outside world itself no side-effects. 
+
+Refrential Transparency:
+// If i completely change this function to the number seven 
+// will effect any part of my program 
+function d(num1, num2) {
+    // It's not pure function output the proper
+    // Outside the world e.g browser
+    return num1 + num2 // refrential transparency
+};
+
+function e(num) {
+  return num*2    
+}
+const e1 = d(2, 5);
+const e2 = e(7);
+
+
+Perfect FP:
+1. Predictable.
+2. Composable.
+3. Immutable.
+4. No shared state or immutable state.
+5. Pure 
+6. Return statement.
+7. 1 Task At a time.
+
+functional Programming;
+Code more Predictable.
+
+Indempotence:
+Given the same input or always return what we do just expected.
+
+Imperative vs Declarative:
+
+Imperative Code:
+Code that tells the machine what to do and how to do it (Every steps tell). 
+e.g machine code very Imperative
+
+Declarative Code:
+what to do and what should happen, it doesnot tell the computer how to do. (Automate)
+e.g Humans are Declarative
+
+Dynamic Programming
+// Caching 
+Caching is a way to store values so you can use them later on.
+Ideally Caching is a backup.
+Speed up programs and hold some piece of data in an easily accessible
+e.g pencil box
+
+// Memorization
+Is a specific form of caching. use alot in dynamic programming.
+
+Arity
+Number of arguments function takes
+function(n1, n2,n3) 3 Arity
+
+Why functional programming is so great and what are side effects.
+1. Perform logics and effects same time the problem is that you may create
+hidden side effects, which cause a lot of bugs if multiple things.
+2. Handle Some piece of data at the same time, that gets really complicated and
+it cause many problems.
+
+Idea of functional programming:
+1. Predictable.
+2. Composable.
+3. Immutable state.
+4. Return statement.
+5. Pure. 
+6. No shared state.
+7. 1 Task
+
+Minimizes Bugs
+Implment all these things are complex problem solve.
+Better than oop.
+
+
+Review:
+Functional Programming and Object Oriented programming goal same code is more Predictable.
+
+
+
+
+
+
+
+

@@ -1,0 +1,147 @@
+Class 02:
+Section Overview:
+Execution Context
+Lexical Environment
+Scope Chain
+Hoisting
+Function Invocation
+Function Scope vs  block Scope
+Dynamic vs Lexical Scope
+this- call, apply, bind
+IIFE
+
+Execution Context:
+Code Execute
+
+Global Execution context:
+1.Execute global object (window)
+e.g this === window
+
+2.Hoisting
+
+3. Two phase 
+1. Creation phase (Global Object, this).
+2. Execution phase (Run Code).
+
+Lexical Environment such Lexical scope or Lexical analysis:
+In javascript our Lexical Scope (available data + variables where the functions was defined) 
+(determines our available variables. Not where the function is called Dynamic Scope);
+
+Lexical: Where the function is written.
+
+Note: Lexical means where you write something
+e.g little universe (even global lexically scoped)
+
+
+Hoisting:
+Hoisting is the behaviour of moving the variables or 
+function declarations to the top of their 
+respective environment during compilation phase.
+
+Everytime new Execution context
+
+Note:
+Variable are partially hoisted.
+Function declarations are fully hoisted. During the Creation phase assign location in memory
+
+var teddy = undefined;
+
+console.log(teddy); // undefined
+var teddy = 'heloo'
+
+var and function (They are hoisted)
+const and let (Not hoisted) Refrence Error 
+
+Avoiding Hoisting (avoid var)
+
+Function Invocation:
+Means run our function or execution.
+
+Execution Context:
+this, arguments
+Variable Environment
+
+Arguments: Work only inner function and call execution time.
+Note: Always avoid arguments.
+
+Noe: Each Execution context has own variable environment.
+
+Scope Chain:
+Bounding
+
+Global Lexical Environment:
+
+Function Scope vs Block Scope.
+JS always function scope.
+But JS adopt block scope.
+
+Function Scope: JS Lexically scoped functioning or global scoped.
+Block Scope: let, const, {} Everytime new environment. Only access
+inside the scope.
+
+IIFE (Immediatel Invoke function Expression):
+Avoid Global variable issues. 
+Security Provide.
+IIFE: Common JS pattern.
+All Library Work this pattern.
+Own Variable Scope.
+Minimize the data in global scope.
+
+this Keyword:
+this is the object that the function is a property of. 
+e.g
+const obj = {
+    name: 'hamza',
+    sing: function(){
+        return `What is your ${name}`
+    }
+}
+
+this: Who called me? This is a placeholder.
+this: this keyword not lexically scoped.
+
+Arrow Function: They are lexically bound or scoped. They lexically behaved.
+
+useStrict:
+Added To JS as a way for us to avoid the common mistakes that can happen.
+
+call, apply, bind:
+Call: Calls a method of an object, substituting another object for the current object.
+Bind: Store this keyword and function borrowing later in use.
+
+Function Currying:
+Reusable code and function parameter in partially use.
+
+
+
+Context vs Scope:
+
+Scope: Is a function based thing. what is the variable access of a function when it is invoked. what is the variable environment.
+Context: More about object. How the function is Invoke and value of this keyword.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

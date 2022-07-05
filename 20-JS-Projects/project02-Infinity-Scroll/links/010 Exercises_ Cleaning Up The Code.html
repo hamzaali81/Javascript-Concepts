@@ -1,0 +1,55 @@
+<p>In the previous video, you saw me update the code this way:<br></p><pre class="prettyprint linenums">// Unsplash API
+let count = 5;
+const apiKey = 'jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek';
+let apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&amp;count=${count}`;
+
+// Check if all images were loaded
+function imageLoaded() {
+  imagesLoaded++;
+  if (imagesLoaded === totalImages) {
+    ready = true;
+    loader.hidden = true;
+    count = 30
+    apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&amp;count=${count}`;
+  }
+}</pre><p><br></p><p>How could you clean up the code, even more, to make the code more readable and understandable? There are many solutions to this. I will provide my solution below as an example but try for yourself first.. scroll down for my suggestion:</p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><pre class="prettyprint linenums">let isInitialLoad = true // NEW&nbsp;LINE ****
+
+// Unsplash API
+let initialCount = 5;
+const apiKey = 'jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek';
+let apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&amp;count=${initialCount}`;
+
+// NEW&nbsp;Block****
+function updateAPIURLWithNewCount (picCount) {
+  apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&amp;count=${picCount}`;
+}
+// NEW&nbsp;Block*****
+
+
+// Check if all images were loaded
+function imageLoaded() {
+  imagesLoaded++;
+  if (imagesLoaded === totalImages) {
+    ready = true;
+    loader.hidden = true;
+  }
+}
+
+
+
+.......
+
+// Get photos from Unsplash API
+async function getPhotos() {
+  try {
+    const response = await fetch(apiUrl);
+    photosArray = await response.json();
+    displayPhotos();
+    if (isInitialLoad) { // NEW&nbsp;LINE ****
+      updateAPIURLWithNewCount(30) // NEW&nbsp;LINE ****
+      isInitialLoad = false // NEW&nbsp;LINE ****
+    } // NEW&nbsp;LINE ****
+  } catch (error) {
+    // Catch Error Here
+  }
+}</pre><p><br></p><p><br></p>

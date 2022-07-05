@@ -1,0 +1,15 @@
+
+Course-Map
+https://coggle.it/diagram/XE3ZoVj-rtA5hcxj/t/advanced-javascript
+
+Exercise-Repl
+https://repl.it/@aneagoie/async
+
+More-about-running-node-on-multiple-CPUs
+https://medium.freecodecamp.org/scaling-node-js-applications-8492bd8afadc
+
+Web-Workers
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+
+More-about-multi-threading
+https://www.internalpointers.com/post/gentle-introduction-multithreading

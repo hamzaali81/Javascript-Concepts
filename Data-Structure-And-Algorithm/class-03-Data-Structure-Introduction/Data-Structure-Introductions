@@ -1,0 +1,82 @@
+What is DS?
+DS is a collection of values.
+
+Algorithm:
+Steps and allocation of DS.
+
+What is Data Structure ?
+Data Structure simple as file cabinet.
+How to put the data in given
+Block chain is simply a data Structure holds the data.
+Programs modelling.
+Readability Speed Space
+e.g Bag , Box.
+
+How Computers store data ?
+
+Variable stores in ram that shows program run. In ram always lose data. Ram holds the data. Bit is tiny electrical switch.Each shelf has one byte of storage. 
+Data on storage persistence is storage. Persistence storage is slow.
+Computer run by cpu.
+CPU acess ram and then storage. Cpu cache (cpu has tiny tiny memory) LRU cached
+
+
+
+ Address(0)    00000001 ( 1 Bit = 8 byte)
+ Address(1)    00000001
+ Address(2)    00000001
+ Address(3)    00000001
+ Address(3)    00000001
+
+8 bit 255
+16 bit 65536
+32 2,147,483,647
+
+Data structure actually effect the process.
+
+Opeartions on DS:
+1. Insertion.
+2. Deletion
+3. Traversal (Access each data items exactly oneced can be processed)
+4. Searching (findout the data item in a location).
+5. Sorting: Data is sorted.
+6. Access: How to we access the data. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

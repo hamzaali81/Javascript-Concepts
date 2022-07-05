@@ -1,0 +1,56 @@
+OOP vs FP
+Both are programming paradigms.
+Code more clear and more understable.
+Easier to extend programming paradigms.
+Memory Efficient
+Allows complex code more organized.
+
+Procedural programming:
+Stored and manipulate data.
+Step by step instruction in data.
+
+C++ originally classes.
+Java is popular in OOP.
+
+OOP vs FP what are good practices?
+
+
+Programs:
+Two primary components.
+1. Data.
+2. Behaviour.
+
+Object allows us to do Prototypal Inheritance:
+
+OOP:
+Data and Behaviour in a single location like a box.
+
+FP:
+Functional programming says that data and Behaviour are distinctly different things and should be kept separate for clearity.
+e.g Everything is return as function.
+
+JS:
+JS are multi-paradigms.
+Clousers are big part of functions.
+
+IN OOP Two types.
+1. Class based programming languages.
+2. Prototype based.
+
+1. Factory Functions
+Function acts like factory
+
+Object.create()
+The Object.create() method creates a new object, using an existing object as the prototype of the newly created object.
+
+const person = {
+    name: 'hamza'
+}
+const em = Object.create(person);
+em.name = 'khan' // khan
+
+const gm = Object.create(person); // {}
+
+New Keyword:
+new automatically return object.
+Any function that is invoked using the new Keyword is called a constructor function.

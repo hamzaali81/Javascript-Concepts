@@ -1,0 +1,4 @@
+<p>How would you compare two objects if they are pointing to a different location in memory but still have the same properties?<br></p><pre class="prettyprint linenums">var user1 = {name : "nerd", org: "dev"};
+var user2 = {name : "nerd", org: "dev"};
+var eq = user1 == user2;
+alert(eq); // gives false</pre><p><br>This is actually an interesting one! There is a simple solution, but it comes with a bit of a catch! <a href="https://stackoverflow.com/questions/1068834/object-comparison-in-javascript" rel="noopener noreferrer" target="_blank">https://stackoverflow.com/questions/1068834/object-comparison-in-javascript</a></p>

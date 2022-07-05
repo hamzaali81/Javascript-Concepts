@@ -1,0 +1,127 @@
+Composition vs inheritence
+
+Inheritance:
+Super class than extended smaller pieces and overwrite.
+
+Composition:
+Smaller pieces than something bigger.
+
+Most people like Composition.
+
+Inheritance:
+1. Structure of code.
+what is character class.
+properties and methods.
+Problem: 
+Tight form of coupling
+Small changes breaks the code
+1. Tight coupling problem
+2. Fragile Base class problem
+3. Hierarchy
+e.g
+User
+  Character
+     Elf
+       Junior Elf
+       
+Composition:
+1.Structure of code 
+Focus it has.
+
+function getAttack(character){
+   return object.assign({}, character, {attackFn: ()=> {}})
+}
+
+function Elf (name, weapon, type) {
+  let elf = {
+    name,
+    weapon,
+    type
+  }
+
+  return getAttack(elf)
+};
+
+Elf = attack() + sleep()
+Ogre = attack() + makeFort() + sleep()
+
+Inheritance:
+Inheritance is a super class that is extended to smaller pieces that add or overwrite things.
+
+Composition: 
+Smaller pieces combine than something biggger.
+
+Composition is a long term solution.
+Composition is a good tool to use greate and stable code use in the future.
+
+OOP vs FP
+
+OOP and FP they are both paradigms. Writting code compliant with a specific
+set of rules.
+FP:
+1. Organizing the code into units and would be code into units.
+2. Avoiding side effects and Writting pure functions would be called functional programming.
+
+OP:
+Box containing information and operations that are supposed to refer to the same concept or grouping it is as object.
+These pieces of information inside of an object are called attributes or state and operations of the state known as method.
+
+FP: 
+Code is essentially combination of function and data is immutable. No side effects and pure functions. Because in a 
+function and functional programming. That function cannot change outside the world and the output value of the function simply depend
+on the given arguments.
+This allows functional programming to really have control over a programmer flow.
+
+Benefits the idea of application modeling of the data Structure.
+
+OOP vs FP:
+
+
+FP vs OOP
+
+FP:
+1. Many operations on fixed data.
+2. Stateless or state is mutable
+3. Pure or no side effects
+4. Declerative
+e.g Machine learning 
+
+OOP:
+1. Few operations on common data
+2. Statful or state is immutable
+3. Side effects or (function are side effects)
+4. Imperative
+e.g If few operations is better solution
+
+Data and behaviour in single location is oop.
+Data and behaviour are different things is fp.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

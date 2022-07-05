@@ -1,0 +1,129 @@
+Class: 04
+Pillars 02
+Topics
+1. Clousers
+2. Prototypal Inheritance.
+3. High Order Functions.
+4. Functions vs Objects.
+5. Scheme + Java.
+
+Functions are Objects:
+
+Function invoke two arguments
+1.this.
+2. arguments keyword (Object like).
+
+Function:
+Function are special type of object or call bale object.
+
+First Class Citizen:
+Function are first class Citizen in JS.
+1. Function assign varibles and properties.
+Whole world js Functional programming
+
+High Order Function:
+High Order Functions are simply a 
+function that can take a function as an argument or a 
+function that returns another function
+e.g
+function()  function(a,b) HOF 
+
+Why they are useful?
+
+// Clousers
+function() + lexical scope
+lexical scope:
+That is the Javascript engine knowns based on where our code is written before we even
+run the code, what varibles each function has access to.
+
+Clousers:
+That a combination of function and the lexical environment from which it was declared.
+Clousers allow a function to access varibles from an enclosing scope or environment, 
+even after it leaves the scope in which it was declared.
+
+function has access to all of the varibles outside of the function with this clouser, 
+that is this little box.
+lexical: where it is written.
+Scoping: Where varibles is the access.
+Clouser is the feature of Javascript.
+Clousers: lexical scoping, lexical means where it is written.
+Scoping: What varibles has to be access to.
+lexical environment === [[scope]]
+Clousers are also called lexical scoping.
+
+Clousers have two main benefits.
+1. Memory Efficient.
+2. Encapsulation.
+
+
+Prototypes:
+Javascript is also Prototypal Inheritance.
+They use something called classical Inheritance.
+class: This keyword also called syntatic sugar.
+Prototype chain:
+e.g Object---> Array + Function.
+Scope chain:
+function lexical environment:
+function varible environment
+
+e.g
+const array = [];
+console.log(array.__proto__.__proto__);
+Why Prototypal Inheritance is useful?
+The fact that objects can share Prototypes means that you can have
+objects with properties that are pointing to the same place in memory,
+thus being more Efficient.  
+Whenever the Javascript engine doesnot find anything up the 
+prototype chain, we get these errors or null.
+function is an special type of object or call able object.
+
+__proto__ ---> prototype
+
+prototype -- > __proto__
+ Arrays and functions are object in js
+ Proto actuallay lives in prototype
+ Only functions have the prototype property.
+The Object constructor creates an object wrapper.
+
+
+// Object Oriented
+Topics: 
+1. this keyword.
+2. new keyword.
+3. Prototype.
+4. ES6 classes.
+5. Java.
+6. Inheritance.
+7. Object.create()
+8. Private vs Public.
+9. Principles of OOP.
+
+OOP vs Functional both are allows us to code organize.
+1. Clear + Understandable
+2. Easy to Extend.
+3. Easy to maintain.
+4. Memory Efficient.
+5. Dry.
+
+OOP(Java) vs Functional (Scheme):
+OOP (Prototypal Inheritance):
+Single location in that object
+Bring data and behaviour in Single location.
+
+Function:
+Data and behaviour both are different things and distinct in
+different location.
+Data Pass function to function.
+
+
+OOP divides two parts:
+1. Class based programming languages.
+2. Prototype based.
+
+Factory Function:
+Function returns as an object.
+
+Object.create():
+function: prototype {bind,call,apply}.
+Only function access the prototype.
+Only constructor use prototype object

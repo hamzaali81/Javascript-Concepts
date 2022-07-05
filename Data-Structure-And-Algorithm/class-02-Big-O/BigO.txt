@@ -1,0 +1,23 @@
+What is good code?
+1. Readable (Everyone understand)
+2. Scalable (Performance)
+
+BigO and Scalability:
+
+
+Code Runtimes:
+1. It depend on machine executing time. 
+2. What type of PC.
+
+1. Linear Time O(n):
+Runtime is grow then increase number of inputs.
+O(n) 
+
+2. Constant Time O(1):
+Number of operation is 1
+
+BigO Calculate 4 Rules Book:
+1. Worst case.
+2. Remove Constant.
+3. Different terms for input.
+4. Drop non dominants.
