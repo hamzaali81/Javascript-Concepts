@@ -1,0 +1,18 @@
+What is functional programming, functional programming is all about
+separation of concerns.
+There's data and then this data gets interacted with.
+But we are not going to combine both data and functions as one piece or one object.
+Data and functions are concerns.
+Don't have of classes and object concepts concern.
+Instead, functions operate on well defined data structures like arrays and object, rather than actually.
+
+Goals:
+1. Clear + Understandable.
+2. Easy to extend
+3. Easy to Maintain
+4. Memory Efficient
+5. Dry
+
+Separation data and behaviour of program.
+functional programming pillars
+1. Pure functions

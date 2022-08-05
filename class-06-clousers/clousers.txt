@@ -1,0 +1,61 @@
+2 Pillars
+This features is unique not available in other languages.
+1. Clousers
+2. Prototypal Inheritance.
+
+class 01:
+Objects --> Arrays and Functions
+In JS everthing is an object.
+
+Function Invoking:
+In JS Functions Invoking two process.
+1. this 
+2. arguments
+
+Note:
+This is special objects called callable objects. But functions are objects
+abc().call()
+abc().apply()
+abc().bind()
+
+Wrong
+var obj = {}.call
+var obj = {}.apply
+var obj = {}.bind
+
+
+
+Functions are first class citizen.
+1. 
+
+
+ Clousers
+ function + lexical scope
+
+ Lexical Scope:
+ That is the javascript engine known based on where our 
+ code is written before we even run the code.
+ What variables each function has access to.
+
+ Clousers allow a function to access variables from an enclosing scope or environment, even after it
+ leaves the scope in which it was declared
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

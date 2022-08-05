@@ -1,0 +1,16 @@
+ Functional Programming
+ Over 60 years exist
+ Lisp very popular programming language
+
+ What is functional programming?
+ Its all about packaging our code into separate chunks so that everything well organized.
+ Functional programming emphasis on simplicity where data and functions are concerned.
+
+ functions operate on well defined data structures like arrays and objects, rather than actually 
+ belonging to that data structure like object.
+
+ In FP separations data of the program and behaviour of the program.
+ FP are immutable.
+ FP pillars
+
+ https://ramdajs.com/

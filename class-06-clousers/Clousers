@@ -1,0 +1,98 @@
+1. Clousers.
+2. Prototypal Inheritance.
+
+
+Functions are objects
+If function invoke two parameters automatic.
+1. This
+2. Arguments (Loop). Not any parameters define an object.
+
+What variable available in variable environments.
+
+
+function are special object called callable object
+
+First class citizens: 
+Functions are first citizen in JS.
+1. Function assign variables and properties.
+
+
+function are pieces of data pass around.
+
+
+HOF:
+Function return as an Argument and return another function.
+
+Two Pillars:
+
+1. Clousers.
+     Function
+     Lexical Scope (Where are code run. e.g Variables).
+     Clousers is the combination of function and lexical environment.
+     especially in different fp.
+2. Prototypes.
+
+Prototypal Inheritance:
+ Prototypal Inheritance
+
+ Array and functions are object
+
+ Inheritance is an object getting access to the properties and methods 
+ of another object.
+
+ Array and function to access object the properties of object.
+
+
+e.g Chaining function in prototype
+
+multiplyBy5() {prototype: {...}} {__proto__} ----> Function{prototpe--> __proto__} ---> Object{prototype: hasOwnProperty: f()--> __proto__}
+
+Never use
+__proto__ = dragon
+1. Performnace and more others reason.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
